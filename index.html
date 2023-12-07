@@ -32,7 +32,40 @@
              alt="Peliculas de accion"
              width="85%"
              height="auto">
-         </li>
+
+             <div class="contenedor-peliculas">
+             <h2>Proximamente...</h2>
+             <div class="pelicula">
+             <img src="ruta/a/GXK.JPG" alt="Godzilla x Kong: The New Empire"> 
+              </p>
+          
+             <button onclick="reproducirVideo()">Reproducir</button>
+
+            <script>
+             function reproducirVideo() {
+            
+             var video = document.getElementById('miVideo');
+            
+            if (video.paused || video.ended) {
+            video.play();
+           }
+           }
+           </script>
+
+           <video id="miVideo" controls>
+           <source src="ruta/a/GODZILLA Y KONG EL Nuevo Imperio.mp4" type="video/mp4">
+  
+           </video>
+           <div class="Ciencia Ficcion">
+            <h3>Godzilla x Kong: The New Empire</h3>
+            <p>Una aventura cinematográfica completamente nueva, que enfrentará al todopoderoso Kong y al temible Godzilla 
+             contra una colosal amenaza desconocida escondida dentro de nuestro mundo. 
+              </div>
+              
+              </div>
+              
+              </div>
+             </li>
 
          <li>
             <img src="Secciones/Peliculas de animación.png"
